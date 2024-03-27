@@ -1,0 +1,35 @@
+{
+  "name": "use-cursor-pagination",
+  "version": "0.0.1",
+  "description": "A React hook for cursor-based pagination with GraphQL",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serpres/useCursorPagination"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "pagination",
+    "graphql",
+    "cursor",
+    "apollo",
+    "relay"
+  ],
+  "author": "Sergey Presnyakov <serpres77@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.72",
+    "react": "^18.2.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
+}
